@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(80, 39, 121);
+}
+
+div.box {
+    width: 348px;
+    height: 347px;
+    background: linear-gradient(to bottom right,rebeccapurple,rgb(197, 61, 255),rgb(211, 0, 130),darkviolet);
+    position: absolute;
+    top: 347px;
+    left: 683px;
+    transform: translate(-50%,-50%);
+}
+
+input#range1 {
+    position: absolute;
+    top: 150px;
+    left: 345px;
+}
+
+input#range4 {
+    position: absolute;
+    top: 530px;
+    left: 345px;
+}
+
+input#range2 {
+    position: absolute;
+    top: 150px;
+    left: 894px;
+}
+
+input#range3 {
+    position: absolute;
+    top: 530px;
+    left: 894px;
+}
+
+#i1 {
+    position: absolute;
+    top: 170px;
+    left: 345px;
+}
+
+#i2 {
+    position: absolute;
+    top: 170px;
+    left: 894px;
+}
+
+#i3 {
+    position: absolute;
+    top: 550px;
+    left: 894px;
+}
+
+#i4 {
+    position: absolute;
+    top: 550px;
+    left: 345px;
+}
+
+p {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 20px;
+    background-color: rgb(63, 34, 90);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+}
